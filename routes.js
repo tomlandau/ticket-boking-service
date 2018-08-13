@@ -11,7 +11,7 @@ router.post('/book-ticket', function(req, res, next) {
 
   // Here you'd expect the ticket booking to occur, but this is an example service, so...
 
-  return res.status(200).json({ticketBooked: true);
+  return res.status(200).json({ticketBooked: true});
 });
 
 module.exports = router;
