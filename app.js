@@ -1,5 +1,5 @@
 const express = require('express');
-const init = require('./express/init');
+const init = require('@bit/tomlandau.movie-services.express.init');
 
 // Create global app object
 var app = express();
